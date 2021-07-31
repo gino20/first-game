@@ -3,12 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Collection
+  - Enemy
+  - Entrance
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
@@ -41,8 +44,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: LongRangeBackground
     uniqueID: 1843295581
+    locked: 0
+  - name: ShortRangeBackground
+    uniqueID: 1779157893
+    locked: 0
+  - name: Ground
+    uniqueID: 206287453
+    locked: 0
+  - name: Player
+    uniqueID: 361078237
     locked: 0
   - name: Foreground
     uniqueID: 1373237413
